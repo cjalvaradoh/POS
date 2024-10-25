@@ -1,0 +1,63 @@
+﻿@model UspgPOS.Models.Venta
+
+@{
+    ViewData["Title"] = "Detalles de la Venta";
+}
+
+<div class="container m-5">
+    <h1 class="mb-4">Detalles de la Venta</h1>
+
+
+    <table class="table table-bordered table-hover m-5">
+        <thead class="thead-light">
+            <tr>
+                <th>Fecha</th>
+                <th>Total</th>
+                <th>Cliente</th>
+                <th>Sucursal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.Fecha)</td>
+                <td>@Html.DisplayFor(model => model.Total)</td>
+                <td>@Html.DisplayFor(model => model.Cliente.Nombre)</td>
+                <td>@Html.DisplayFor(model => model.Sucursal.Nombre)</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <h4 class="mt-5">Detalles de los Productos Vendidos</h4>
+
+
+    <table class="table table-bordered table-hover m-5">
+        <thead class="thead-dark">
+            <tr>
+                <th>Venta</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detalle in Model.Detalles)
+            {
+                <tr>
+                    <td>@detalle.VentaId</td>
+                    <td>@detalle.Producto.Nombre</td>
+                    <td>@detalle.Cantidad</td>
+                    <td>Q @detalle.PrecioUnitario.ToString("0")</td>  
+                    <td>Q @((detalle.Cantidad * detalle.PrecioUnitario).ToString("0"))</td>  
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+
+    <div class="text-right mt-4">
+        <a asp-action="Index" class="btn btn-primary">Volver a la lista</a>
+    </div>
+</div>
