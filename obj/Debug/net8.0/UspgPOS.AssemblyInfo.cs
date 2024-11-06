@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UspgPOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1daabfd95dcd3c1430560defdc294dc1fd0c7785")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e803fabe8de3eff236e420324467966a48c960d")]
 [assembly: System.Reflection.AssemblyProductAttribute("UspgPOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UspgPOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

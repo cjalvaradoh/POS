@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
     "\\Views",
     "\\Views\\Ventas"
   ],
-  "SelectedNode": "\\UspgPOS.sln",
+  "SelectedNode": "\\Controllers\\ProductosController.cs",
   "PreviewInSolutionExplorer": false
 }

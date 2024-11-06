@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<UspgPOS.Models.Marca>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Marcas";
 }
 
-<h1>Index</h1>
+<h1>Marcas</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -15,6 +15,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
+            <th>IMAGEN</th>
             <th></th>
         </tr>
     </thead>
@@ -29,6 +30,16 @@
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.thumbnail_url))
+                    {
+                        <img src="@item.thumbnail_url" style="max-width:100px; max-height:100px" />
+                    }
+                    else
+                    {
+                        <p>No hay imagen d</p>
+                    }
+                </td>
         </tr>
 }
     </tbody>
