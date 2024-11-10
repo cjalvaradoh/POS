@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\detallesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:models\\detallesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\clasificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:models\\clasificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\clasificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:models\\clasificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,12 +73,57 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Empleado.cs",
+              "RelativeToolTip": "Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:50:40.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T17:49:12.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:08:12.432Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DetallesEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\DetallesEmpleado.cs",
+              "RelativeDocumentMoniker": "Models\\DetallesEmpleado.cs",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\DetallesEmpleado.cs",
+              "RelativeToolTip": "Models\\DetallesEmpleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:11:19.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Clasificacion.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Clasificacion.cs",
               "RelativeDocumentMoniker": "Models\\Clasificacion.cs",
@@ -70,12 +131,11 @@
               "RelativeToolTip": "Models\\Clasificacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T04:01:30.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T04:01:30.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Marca.cs",
               "RelativeDocumentMoniker": "Models\\Marca.cs",
@@ -83,12 +143,11 @@
               "RelativeToolTip": "Models\\Marca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T03:58:54.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T03:58:54.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Productos.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Productos.cs",
               "RelativeDocumentMoniker": "Models\\Productos.cs",
@@ -96,25 +155,23 @@
               "RelativeToolTip": "Models\\Productos.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T03:47:24.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T03:47:24.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Controllers\\ProductosController.cs*",
-              "RelativeToolTip": "Controllers\\ProductosController.cs*",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAswAoBAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T03:17:59.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T03:17:59.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\.env",
               "RelativeDocumentMoniker": ".env",
@@ -122,8 +179,11 @@
               "RelativeToolTip": ".env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-06T02:43:18.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T02:43:18.57Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
