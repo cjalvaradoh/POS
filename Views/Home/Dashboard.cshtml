@@ -1,4 +1,4 @@
-﻿@{
+﻿﻿@{
 	ViewData["Title"] = "Dashboard";
 }
 
@@ -16,6 +16,21 @@
 	<div class="col-6">
 		<div class="card">
 			<div id="graficoTreemap"></div>
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="card">
+			<div id="graficoSalarioPromedioPorDepartamento"></div>
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="card">
+			<div id="graficoPromedioYears"></div>
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="card">
+			<div id="graficoEmpleados"></div>
 		</div>
 	</div>
 </div>
@@ -91,10 +106,9 @@
 	})
 
 	document.addEventListener("DOMContentLoaded", function () {
-		// Datos para el gráfico Treemap
+		//  gráfico Treemap
 		const cantidadEmpleados = @Html.Raw(Json.Serialize(ViewBag.CantidadEmpleados));
 
-		// Configuración del gráfico Treemap
 		const configuracionGraficoTreemap = {
 			chart: {
 				height: 350,
@@ -111,10 +125,104 @@
 			}
 		};
 
-		// Renderización del gráfico Treemap
 		const graficoTreemap = new ApexCharts(document.getElementById('graficoTreemap'), configuracionGraficoTreemap);
 		graficoTreemap.render();
 	});
 
+	document.addEventListener("DOMContentLoaded", function () {
 
+		var salarioPromedioPorDepartamento = @Html.Raw(ViewBag.SalarioPromedioPorDepartamentoJson);
+
+		var departamentos = salarioPromedioPorDepartamento.map(item => item.Departamento);
+		var salariosPromedio = salarioPromedioPorDepartamento.map(item => item.SalarioPromedio);
+
+		//  gráfico de pastel
+		const configuracionGraficoSalarioPromedioPorDepartamento = {
+			chart: {
+				type: 'pie'
+			},
+			series: salariosPromedio,
+			labels: departamentos,
+			title: {
+				text: 'Salario Promedio por Departamento'
+			},
+			colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF']
+		};
+
+		const graficoSalarioPromedioPorDepartamento = new ApexCharts(
+			document.getElementById("graficoSalarioPromedioPorDepartamento"),
+			configuracionGraficoSalarioPromedioPorDepartamento
+		);
+
+		graficoSalarioPromedioPorDepartamento.render();
+	});
+
+	document.addEventListener("DOMContentLoaded", function () {
+
+		var promedioYears = @Html.Raw(ViewBag.PromedioYearsJson);
+
+
+		var posiciones = promedioYears.map(item => item.Posicion);  
+		var añosExperienciaPromedio = promedioYears.map(item => item.ExperienciaPromedio);  
+
+		// Configuración del gráfico de barras
+		const configuracionGraficoPromedioAños = {
+			chart: {
+				type: 'bar'
+			},
+			series: [{
+				name: 'Promedio de Años de Experiencia',
+				data: añosExperienciaPromedio
+			}],
+			xaxis: {
+				categories: posiciones
+			},
+			title: {
+				text: 'Promedio de Años de Experiencia por Posición'
+			}
+		};
+
+		
+		const graficoPromedioAños = new ApexCharts(
+			document.getElementById('graficoPromedioYears'),
+			configuracionGraficoPromedioAños
+		);
+
+		graficoPromedioAños.render();
+	});
+
+	document.addEventListener("DOMContentLoaded", function () {
+		
+		var cantidadEmpleadosContratados = @Html.Raw(ViewBag.cantidadEmpleadosContratadosJson);
+
+		
+		var anosContratacion = cantidadEmpleadosContratados.map(item => item.AñoContratacion);  
+		var cantidadEmpleados = cantidadEmpleadosContratados.map(item => item.CantidadEmpleados);
+
+		
+		const configuracionGraficoEmpleadosPorAno = {
+			chart: {
+				type: 'bar'
+			},
+			series: [{
+				name: 'Cantidad de Empleados Contratados',
+				data: cantidadEmpleados  
+			}],
+			xaxis: {
+				categories: anosContratacion  
+			},
+			title: {
+				text: 'Cantidad de Empleados Contratados por Año'
+			}
+		};
+
+		
+		const graficoEmpleadosPorAno = new ApexCharts(
+			document.getElementById('graficoEmpleados'),  
+			configuracionGraficoEmpleadosPorAno  
+		);
+
+		graficoEmpleadosPorAno.render(); 
+	});
+	
 </script>

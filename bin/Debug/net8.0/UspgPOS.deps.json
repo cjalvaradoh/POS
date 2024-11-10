@@ -17,6 +17,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.10",
           "Microsoft.Identity.Client": "4.66.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.6",
+          "Newtonsoft.Json": "13.0.3",
           "dotenv.net": "3.2.1"
         },
         "runtime": {

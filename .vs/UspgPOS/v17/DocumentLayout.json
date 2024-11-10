@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\detallesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:models\\detallesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\detallesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:models\\detallesempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF5DE482-252F-4743-87DD-9F2421C460E5}|UspgPOS.csproj|c:\\users\\ces\\source\\repos\\uspgpos\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,24 +83,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "Models\\Empleado.cs",
-              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Empleado.cs",
-              "RelativeToolTip": "Models\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T17:50:40.527Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T01:24:24.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Views\\Home\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
               "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Views\\Home\\Dashboard.cshtml",
               "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAAOAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-09T17:49:12.262Z",
               "EditorCaption": ""
@@ -109,25 +114,40 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T17:08:12.432Z"
+              "WhenOpened": "2024-11-09T17:08:12.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DetallesEmpleado.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\DetallesEmpleado.cs",
               "RelativeDocumentMoniker": "Models\\DetallesEmpleado.cs",
               "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\DetallesEmpleado.cs",
               "RelativeToolTip": "Models\\DetallesEmpleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T17:11:19.817Z"
+              "WhenOpened": "2024-11-09T17:11:19.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Empleado.cs",
+              "RelativeToolTip": "Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:50:40.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Clasificacion.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Clasificacion.cs",
               "RelativeDocumentMoniker": "Models\\Clasificacion.cs",
@@ -139,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Marca.cs",
               "RelativeDocumentMoniker": "Models\\Marca.cs",
@@ -151,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Productos.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Models\\Productos.cs",
               "RelativeDocumentMoniker": "Models\\Productos.cs",
@@ -163,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductosController.cs",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\Controllers\\ProductosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
@@ -175,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": ".env",
               "DocumentMoniker": "C:\\Users\\Ces\\source\\repos\\UspgPOS\\.env",
               "RelativeDocumentMoniker": ".env",

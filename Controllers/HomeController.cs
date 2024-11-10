@@ -97,6 +97,30 @@ namespace UspgPOS.Controllers
 					value = g.Count()
 				}).ToList();
 
+			var salarioPromedio = empleados
+				.GroupBy(empleado => empleado.Departamento)
+				.Select(grupo => new {
+					Departamento = grupo.Key,
+					SalarioPromedio = grupo.Average(empleado => empleado.Salario) 
+				}).ToList();
+
+			var promedioYears = empleados
+				.GroupBy(empleado => empleado.Posicion)
+				.Select(grupo => new {
+					Posicion = grupo.Key,  
+					ExperienciaPromedio = grupo.Average(empleado => empleado.AñosExperiencia)  
+				})
+				.ToList();
+
+			var cantidadEmpleadosContratados = empleados
+				.GroupBy(empleado => empleado.FechaContratacion.Year) 
+				.Select(grupo => new {
+					AñoContratacion = grupo.Key, 
+					CantidadEmpleados = grupo.Count()  
+				})
+				.ToList();
+
+
 
 			ViewBag.Departamentos = JsonConvert.SerializeObject(promediosPorDepartamento.Select(grupo => grupo.Departamento).ToList());
 			ViewBag.PromedioDesempeno = JsonConvert.SerializeObject(promediosPorDepartamento.Select(grupo => grupo.PromedioDesempeno).ToList());
@@ -106,6 +130,9 @@ namespace UspgPOS.Controllers
 			// ViewBag para el Treemap
 			ViewBag.CantidadEmpleados = empleadosPorDepartamento;
 
+			ViewBag.SalarioPromedioPorDepartamentoJson = JsonConvert.SerializeObject(salarioPromedio);
+			ViewBag.PromedioYearsJson = JsonConvert.SerializeObject(promedioYears);
+			ViewBag.cantidadEmpleadosContratadosJson = JsonConvert.SerializeObject(cantidadEmpleadosContratados);
 
 
 			return View();
