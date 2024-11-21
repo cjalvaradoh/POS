@@ -92,6 +92,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2024.10.3, )"
+            },
             "dotenv.net": {
               "target": "Package",
               "version": "[3.2.1, )"
